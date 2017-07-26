@@ -17,7 +17,7 @@ import java.util.Properties;
 public class XxlConfClient {
 	private static Logger logger = LoggerFactory.getLogger(XxlConfClient.class);
 
-	public static Properties localProp = PropertiesUtil.loadProperties("xxl-conf.properties");
+	public static Properties localProp = PropertiesUtil.loadProperties("xxl-config.properties");
 
 	private static Cache cache;
 	static {
